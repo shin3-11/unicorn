@@ -1,0 +1,445 @@
+/* font-family */
+@font-face {
+  font-family: "A-OTF-MidashiGoPro-MB31";
+  src: url("fonts/A-OTF-Midashi/A-OTF-MidashiGoPro-MB31.otf") format("opentype");
+}
+@font-face {
+  font-family: "ヒラギノ角ゴシック";
+  src: url("fonts/Hiragino/ヒラギノ角ゴシック\ W6.ttc") format("truetype");
+}
+@font-face {
+  font-family: "ToppanBunkyuMidashiGothic";
+  src: url("fonts/Toppan-Midashi/ToppanBunkyuMidashiGothicStdN-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/Avenir/Avenir.ttc") format("truetype");
+}
+@font-face {
+  font-family: "A-OTF-GothicBBBPro-Medium";
+  src: url("fonts/A-OTF-Gothic/A-OTF-GothicBBBPro-Medium.otf") format("opentype");
+}
+.ff-1{
+    font-family: "A-OTF-MidashiGoPro-MB31";
+}
+.ff-2{
+    font-family: "ヒラギノ角ゴシック";
+}
+.ff-3{
+    font-family: "ToppanBunkyuMidashiGothic";
+}
+.ff-4{
+    font-family: "Avenir";
+}
+.ff-5{
+    font-family: "A-OTF-GothicBBBPro-Medium";
+}
+
+/* font-size */
+.fs-15{
+    font-size: 15px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-19{
+    font-size: 19px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-27{
+    font-size: 27px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-31{
+    font-size: 31px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-36{
+    font-size: 36px;
+}
+.fs-37{
+    font-size: 37px;
+}
+.fs-38{
+    font-size: 38px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-41{
+    font-size: 41px;
+}
+.fs-42{
+    font-size: 42px;
+}
+.fs-46{
+    font-size: 46px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-49{
+    font-size: 49px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-52{
+    font-size: 52px;
+}
+.fs-58{
+    font-size: 58px;
+}
+.fs-75{
+    font-size: 75px;
+}
+.fs-150{
+    font-size: 150px;
+}
+.fs-197{
+    font-size: 197px;
+}
+.fs-260{
+    font-size: 260px;
+}
+
+/* font-weight */
+.fw-8{
+    font-weight: 800;
+}
+
+/* line-height */
+.lh-1{
+    line-height: 1;
+}
+
+/* letter-spacing */
+.ls-1{
+    letter-spacing: 1;
+}
+.ls-2{
+    letter-spacing: -2px;
+}
+
+/* font-color */
+.text-gray{
+    color: #707070;
+}
+.text-red{
+    color:  #670303;
+}
+.text-lime{
+    color:  #3DBEAA;
+}
+.text-green{
+    color:  #419687;
+}
+.text-yellow{
+    color: #FEE134;
+}
+.text-blue{
+    color: #5CD5D9;
+}
+.text-orange{
+    color: #FC9100;
+}
+.text-pink{
+    color: #FD0061;
+}
+
+/* background */
+.bg-gray{
+   background: #E8E8E8;
+}
+.bg-gold{
+    background: linear-gradient(to right,#D0A028,#FDF97F 30%,#D0A028);
+}
+.bg-lime{
+    background: #3DBEAA;
+}
+.bg-pink{
+    background: #FD0061;
+}
+.bg-sky{
+    background: #E9F7F8;
+}
+.bg-green{
+    background:  #419687;
+}
+.bg-i1{
+    background-image: url("img/section_3/0.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}
+.bg-i2{
+    background-image: url("img/section_8/2.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}
+
+/* border */
+.border-lime{
+    border:solid 1px #4DAF96;
+}
+.border-gray{
+    border:solid 1px #707070;
+}
+.border-pink{
+    border:solid 1px #FD0061;
+}
+.border-button{
+    border-radius: 50px;
+    border-color: #FD0061;
+}
+.bb-dash{
+    border-bottom: 1px dashed #707070;
+}
+.bb-yellow {
+    background:rgba(0, 0, 0, 0) linear-gradient(transparent 60%, #FFF5A7 0%) repeat scroll 0 0;
+}
+.br-5p{
+    border-radius: 5px;
+}
+.br-10p{
+    border-radius: 10px;
+}
+
+
+/* height */
+.h-20p{
+    height: 20px;
+}
+.h-25p{
+    height: 25px;
+}
+.h-40p{
+    height: 40px;
+}
+.h-70p{
+    height: 70px;
+}
+.h-90p{
+    height: 90px;
+}
+.h-50vw{
+    height: 50vw;
+}
+.h-100vh{
+    height: 100vh;
+}
+
+/* width */
+.w-10{
+    width: 10%;
+}
+.w-15{
+    width: 15%;
+}
+.w-25{
+    width: 25%;
+}
+.w-100p{
+    width: 100px;
+}
+.mw-900p{
+    max-width: 900px;
+}
+.w-fit{
+    width: fit-content;
+}
+/* position */
+.top-0{
+    top: 0;
+}
+.top-15{
+    top: 15%;
+}
+.top-65{
+    top: 65%;
+}
+.top--30{
+    top: -30%;
+}
+.top--80{
+    top: -80%;
+}
+.top--90{
+    top: -90%;
+}
+.top--100{
+    top: -100%;
+}
+.top-120p {
+    top: 120px;
+}
+.top--80p{
+    top: -80px;
+}
+.top--100p{
+    top: -100px;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+.right-0{
+    right: 0;
+}
+.right-5{
+    right: 5%;
+}
+.right-10{
+    right: 10%;
+}
+.right-90{
+    right: 90%;
+}
+.right--20{
+    right: -20%;
+}
+.right--50{
+     right: -50%;
+}
+.right--70{
+     right: -70%;
+}
+.left-0{
+    left: 0;
+}
+.left-10{
+    left: 10%;
+}
+.left-20{
+    left: 20%;
+}
+.left-50{
+    left: 50%;
+}
+.left-60{
+     left: 60%;
+}
+.left-80{
+    left: 80%;
+}
+.left--20{
+     left: -20%;
+}
+.left--70{
+     left: -70%;
+}
+
+/* vertical-align */
+.vertical-middle{
+    vertical-align: middle;
+}
+/* shadow */
+.box-shadow{
+ box-shadow:0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+
+/* section */
+.sec-bar{
+ position: relative;
+}
+.sec-bar ::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  border: 50px solid transparent;
+  border-top: 50px solid #3DBEAA;
+}
+.arrowy{
+ position: absolute;
+ top: 33%;
+ right: -25%;
+ height: 25%;
+}
+.radio{
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: white !important;
+    border: solid #3DBEAA !important;
+    width: 30px;
+    height: 30px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(253, 0, 97) !important;
+    border: solid !important;
+    background-color: white !important;
+    width: 30px;
+    height: 30px;
+}
+
+/* form */
+.contact_item input,select{
+height: 40px;
+}
+
+/* Radio */
+input[type="radio"]{
+  position: relative;
+  top: 13px;
+  width: 30px;
+}
+.radio01 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio01::before {
+    content: '';
+    font-size: 20px;
+    background: #fff;
+    border: 3px solid #3DBEAA;
+    border-radius: 5px;
+    position: absolute;
+    display: block;
+    top: 12%;
+    height: 30px;
+    width: 30px;
+}
+
+input[type=radio]:checked.radio01:before {
+    content: '●';
+    color: #fd0061;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    background: #fff;
+    border: 3px solid #fd0061;
+    border-radius: 5px;
+    position: absolute;
+    display: block;
+    top: 12%;
+    height: 30px;
+    width: 30px;
+}
