@@ -1,7 +1,7 @@
 /* font-family */
 @font-face {
   font-family: "ヒラギノ角ゴシック";
-  src: url("fonts/Hiragino/ヒラギノ角ゴシック W6.ttc") format("truetype");
+  src: url("fonts/Hiragino/ヒラギノ角ゴシック_W6.ttc") format("truetype");
 }
 @font-face {
   font-family: "ToppanBunkyuMidashiGothic";
